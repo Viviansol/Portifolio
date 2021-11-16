@@ -7,7 +7,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import Particles from "react-tsparticles";
 import About from "./components/about";
 import Services from "./components/services";
-
+import Contato from "./components/Contato";
+import Projetos from "./components/projetos";
+import Footer from "./components/footer";
 export default class App extends Component {
 
   render(){
@@ -18,6 +20,9 @@ export default class App extends Component {
         <Header/>
         <About/>
         <Services/>
+        <Projetos/> 
+        <Contato/>
+        <Footer/>
         <Particles
       id="tsparticles"
       options={{
@@ -100,6 +105,6 @@ export default class App extends Component {
       />
   
       </>
-    )
+    );
   }
 }

@@ -7,8 +7,9 @@ import Typed from "react-typed";
 const Header = () => {
     return (
        
-        <div className = "header-wrapper">
+        <div className = "header-wrapper" id="header">
             <div className="main-info">
+                <h1 className="name ">Vivian Sanches</h1>
                 <h1>Full stack Web developer</h1>
                 <h2> especialista em:</h2>
                 
