@@ -5,7 +5,7 @@ import foto from "../foto.jpg";
 const about = () => {
     return (
         <div className= "aboutme-section" id = "aboutme">
-            <div className="myphoto "><img className="myphoto" src={foto} alt="My photo"></img></div>
+            <div className="myphoto "><img className="myphoto" src={foto} alt="me"></img></div>
             <div className="about-info">
                 
                     <p>Sobre</p>

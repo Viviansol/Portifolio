@@ -19,7 +19,7 @@ const Header = () => {
         backDelay={60}
         loop
         />
-        <a href ="#" class= "btn-contact" >Entre em contato</a>
+        <a href ="#contato-section" class= "btn-contact" >Entre em contato</a>
             </div>
             
         </div>
